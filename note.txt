@@ -1,0 +1,47 @@
+Nội dung chính và cập nhật mới
+
+Đề tài: Tốt nghiệp sớm hay muộn thì tốt hơn cho con đường tương lai của sinh viên IT.
+
+1. Tối ưu hoá đa thiết bị (Responsive Design cho PC, Laptop, Tablet, Mobile):
+- Fluid Typography & Spacing: Sử dụng hàm clamp() cho cỡ chữ và khoảng cách, tự động co giãn mềm mại theo kích thước màn hình từ 320px (iPhone SE) đến màn hình 4K PC.
+- Chuẩn Touch Targets: Các nút bấm, đáp án và thẻ tabs có chiều cao tối thiểu từ 46px - 52px, dễ dàng thao tác bằng ngón tay cái mà không bị chạm nhầm.
+- Trải nghiệm di động mượt mà:
+  + Thanh header tự động điều chỉnh dạng linh hoạt trên mobile, các nút bấm thu gọn trực quan.
+  + Câu hỏi hình ảnh tự động chuyển sang 1 cột trên điện thoại để hiển thị rõ ràng và bấm dễ dàng.
+  + Thanh tab nội dung cuộn ngang vuốt mượt mà (-webkit-overflow-scrolling: touch; scroll-snap).
+  + Nút điều hướng câu hỏi xếp thông minh (Nút Tiếp lên trên, Quay lại xuống dưới) phù hợp ngón tay cái một tay.
+- Tiết kiệm pin & Hiệu năng:
+  + Tự động giảm số lượng cánh hoa anh đào trên điện thoại (16 cánh thay vì 32) để đảm bảo 60fps mượt mà, không nóng máy.
+  + Tự động tạm dừng animation cánh hoa khi người dùng chuyển tab hoặc khóa màn hình điện thoại (Page Visibility API).
+  + Các hình ảnh trong gallery được thiết lập loading="lazy" để tải trang siêu tốc.
+- Hỗ trợ Print Stylesheet: Tính năng "In / Lưu thẻ kết quả" định dạng PDF sạch sẽ, không bị vướng nút điều hướng.
+
+2. Giao diện & Chủ đề Hoa Anh Đào (Sakura Blossom Theme):
+- Phong cách thẩm mỹ hoa anh đào Nhật Bản (Sakura Theme) với tone màu hồng phấn thanh lịch, sang trọng.
+- Hiệu ứng cánh hoa anh đào rơi mượt mà (Sakura Falling Canvas) có thể tùy chỉnh Bật/Tắt.
+- Âm thanh chuông gió phong linh Nhật Bản (Furin Chime) bằng Web Audio API trong trẻo, thư thái khi hoàn thành bài test hoặc xem kết quả.
+- Hỗ trợ 2 chế độ hiển thị: Ngày Sakura tươi sáng (Haru Sakura) và Đêm Hoa Anh Đào huyền ảo (Yozakura Night).
+- Thiết kế trực quan, hiện đại, glassmorphism với đổ bóng mềm mại và hiệu ứng hover sinh động.
+
+3. Tự động tải ảnh truyền cảm hứng trên mạng (Unsplash):
+- Tích hợp kho ảnh trực tuyến Unsplash độ phân giải cao, tự động tải ảnh phù hợp theo từng hồ sơ kết quả của mỗi người.
+- Tính năng "Đổi ảnh truyền cảm hứng" cho phép người dùng xem nhiều hình ảnh đẹp khác nhau liên quan đến con đường của mình.
+- Thư viện ảnh nhỏ (Inspiring Gallery) minh họa cho từng lộ trình.
+- Cơ chế Fallback thông minh: nếu mạng yếu hoặc offline, tự động chuyển về đồ họa vector hoa anh đào nghệ thuật mà không bị vỡ giao diện.
+
+4. Hệ thống lời khuyên đa dạng, chuyên sâu và cá nhân hóa:
+- 20 câu hỏi đa chiều: 9 câu chọn 1 đáp án, 6 câu chọn nhiều đáp án, 5 câu chọn bằng hình ảnh trực quan.
+- Thước đo Sớm - Muộn trực quan với định vị tỷ lệ phần trăm chính xác.
+- Bảng Modal Ma Trận So Sánh 4 Lộ Trình (Thời gian, Áp lực, Thu nhập ban đầu, Phù hợp nhất, Trọng tâm) hỗ trợ xem nhanh mọi lúc.
+- 4 lộ trình sự nghiệp chính:
+  + Tên Lửa Tăng Tốc (Tốt nghiệp sớm 3.0 - 3.5 năm)
+  + Cân Bằng Khôn Ngoan (Đúng hạn hoặc sớm 1 kỳ, song hành thực tập)
+  + Người Xây Nền Móng (Kéo dài 1-2 kỳ có mục tiêu củng cố kiến thức sâu)
+  + Nhà Thám Hiểm (Tốt nghiệp muộn có chủ đích để du học, nghiên cứu AI, khởi nghiệp)
+- Hệ thống cẩm nang 5 tab chuyên sâu:
+  + Tab 1: Tổng quan lộ trình, bộ kỹ năng trọng tâm (Tech stack), lời khuyên tài chính.
+  + Tab 2: Lộ trình hành động chi tiết 3 giai đoạn + Checklist công việc tuần này có thể tích chọn hoàn thành.
+  + Tab 3: Lời khuyên cá nhân hóa động dựa trên chính câu trả lời của từng người (GPA, tài chính, môi trường mơ ước).
+  + Tab 4: Biểu đồ trực quan 5 chỉ số năng lực theo hồ sơ cá nhân.
+  + Tab 5: 3 Cạm bẫy chí mạng cần tránh + Lời nhắn nhủ truyền cảm hứng từ Senpai IT thực tế.
+- Tiện ích: Sao chép tóm tắt lộ trình vào Clipboard, Lưu/In kết quả PDF, Toast thông báo phong cách hoa anh đào.
